@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Story+Script&display=swap');
+
+body {
+  font-family: "Bricolage Grotesque", sans-serif;
+  margin: 20px;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #a3b9b0, #97e4d7);
+  color: #333;
+  line-height: 1.6;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2.5em;
+  color: #fff;
+  margin-bottom: 30px;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+h2 {
+  color: #2c3e50;
+  border-bottom: 3px solid #3498db;
+  margin-bottom: 20px;
+  padding-bottom: 5px;
+}
+
+h3 {
+  color: #e74c3c;
+  margin: 20px 0 15px;
+}
+
+.section {
+  background: rgba(255,255,255,0.95);
+  padding: 25px;
+  margin: 20px 0;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+form input, form textarea {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 2px dashed #ffb6c1;
+  border-radius: 12px;
+  font-family: 'Baloo 2', cursive;
+  font-size: 1em;
+}
+
+form button {
+  background: #ff80ab;
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 12px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.2s;
+}
+
+form button:hover {
+  background: #ff4081;
+  transform: scale(1.05);
+}
+
+.confession {
+  background: #fff0f5;
+  padding: 15px;
+  border-left: 5px solid #ff80ab;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  position: relative;
+}
+
+.confession::after {
+  content: "🎶";
+  position: absolute;
+  top: 10px;
+  right: 15px;
+}
